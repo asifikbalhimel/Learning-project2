@@ -1,0 +1,182 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+header{
+	width: 100%;
+	padding: 12px 0;
+}
+img{
+	height: auto;
+	max-width: 100%;
+}
+html{
+	scroll-behavior: smooth;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 80px;
+
+}
+.h-right{
+	display: inline-block;
+}
+.h-right ul li{
+	list-style: none;
+	display: inline-block;
+	font-size: 18px;
+	margin: 12px 10px;
+
+}
+.h-right a{
+	color: grey ;
+}
+.line{
+	width: 100%;
+	border-bottom: 1px solid grey;
+}
+.bannar{
+	width: 100%;
+	padding: 80px 0;
+	text-align: center;
+}
+.bannar h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.s-text{
+	color: #0088FF;
+}
+.bannar p{
+	margin: 10px 0;
+	font-size: 18px;
+	line-height: 1.6;
+}
+.bannar img{
+	padding: 18px 0;
+}
+.bannar-content{
+	width: 100%;
+	padding: 20px 0;
+	margin-bottom: 25px;
+}
+.content{
+	display: flex;
+	justify-content:center;
+}
+.c-left{
+	margin-left: 140px;
+}
+.c-left h1{
+	color: #F05161;
+	font-size: 60px;
+	text-align: right;
+}
+.c-left p{
+	text-align: right;
+	color: grey ;
+	font-size: 18px;
+}
+.c-right{
+	margin-left: 35px;
+}
+.c-right h1{
+	text-align: left;
+	font-size: 60px;
+	color: #0F2656;
+}
+
+.gallery{
+	width: 100%;
+	padding: 60px 0;
+}
+
+.g-content{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	column-gap: 35px;
+}
+.g-item{
+	background-color: #FDEBED;
+	padding: 30px 0;
+}
+.g-item img{
+	margin-bottom: 8px;
+}
+.g-item h3{
+	color: #0F2656;
+	margin-bottom: 8px;	
+}
+.g-item p{
+	color: grey;
+	line-height: 1.3;
+	margin-bottom: 35px;
+}
+.g-item h3, .g-item p{
+	margin-left: 20px;
+}
+
+.g-item1{
+	background-color: #EBF9F4;
+	padding: 30px 0;
+}
+.g-item1 img{
+	margin-bottom: 8px;
+}
+.g-item1 h3{
+	color: #0F2656;
+	margin-bottom: 8px;	
+}
+.g-item1 p{
+	color: grey;
+	line-height: 1.3;
+	margin-bottom: 35px;
+}
+.g-item1 h3, .g-item1 p{
+	margin-left: 20px;
+}
+
+.g-item2{
+	background-color: #FFF7EB;
+	padding: 30px 0;
+}
+.g-item2 img{
+	margin-bottom: 8px;
+}
+.g-item2 h3{
+	color: #0F2656;
+	margin-bottom: 8px;	
+}
+.g-item2 p{
+	color: grey;
+	line-height: 1.3;
+	margin-bottom: 35px;
+}
+.g-item2 h3, .g-item2 p{
+	margin-left: 20px;
+}
+
+.footer{
+	width: 100%;
+	margin-top: 20px;
+	background-color: #0088FF;
+	padding: 30px 0;
+}
+.f-content{
+	text-align: center;
+	color: #ffffffad;
+}
+.s-color{
+	color: white;
+}
